@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>WorldShipping</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>WorldShipping</h1>
+    <h3>Tell us about your package's size below:</h3>
+    <form action='/form'>
+      <div class="form-group">
+        <label for="parcelWidth">Please enter package's Width in centimeter</label>
+        <input id="parcelWidth" name="parcelWidth" type='number' min=0>
+      </div>
+      <div class="form-group">
+        <label for="parcelLength">Please enter package's Length in centimeter</label>
+        <input id="parcelLength" name="parcelLength" type='number' min=0>
+      </div>
+      <div class="form-group">
+        <label for="parcelDepth">Enter package's Depth in centimeter</label>
+        <input id="parcelDepth" name="parcelDepth" type='number' min=0>
+      </div>
+      <div class="form-group">
+        <label for="parcelWeight">Enter package's weight in grams</label>
+        <input id="parcelWeight" name="parcelWeight" type='number' min=0>
+      </div>
+      <button type="submit" class="btn btn-success btn-lg">Click to calculate Shipping Cost</button>
+
+
+
+    </form>
+  </body>
+</html>
